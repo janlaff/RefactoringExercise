@@ -1,10 +1,9 @@
-
 import java.lang.*;
 import java.util.*;
 
 class Customer {
     private final String name;
-    private final Vector rentals = new Vector();
+    private final Vector<Rental> rentals = new Vector<>();
 
     public Customer (String newname) {
         name = newname;
